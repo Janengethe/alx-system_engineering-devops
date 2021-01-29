@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l,a,m,p,x
+ls -amp 
