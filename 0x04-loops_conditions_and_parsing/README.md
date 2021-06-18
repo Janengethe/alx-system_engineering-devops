@@ -13,14 +13,9 @@
 * Shellcheck is a tool that help in writing proper Bash scripts. It make recommendations on syntax and semantics and provide advice on edge cases. Shellcheck is friendly! All Bash scripts must pass Shellcheck without any error.
 * Shellcheck is available on the school's computers. If you want to use it on your own computer, here is how to [install it](https://github.com/koalaman/shellcheck#installing).
 
-### Tasks
-* 0. Create a SSH RSA key pair.
-  - Resources for this task: a). [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys), b). [Windows Users](https://docs.rackspace.com/support/how-to/generating-rsa-keys-with-ssh-puttygen/), c). man:ssh-keygen.
-  - File 0-RSA_public_key.pub - contains my public key
-* 1. For Holberton School loop.
-  * File 1-for_holberton_school - a Bash script that displays Holberton School 10 times using for loop.
-* 2. While Holberton School loop
-  - File 2-while_holberton_school - a Bash script that displays Holberton School 10 times using while loop.
-* 3. Until Holberton School loop
-  - File 3-until_holberton_school - a Bash script that displays Holberton School 10 times using until loop.
-  
+### File Descriptions
+* 0-RSA_public_key.pub - contains my public key. Resources for this task: a). [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys), b). [Windows Users](https://docs.rackspace.com/support/how-to/generating-rsa-keys-with-ssh-puttygen/), c). man:ssh-keygen.
+* 1-for_holberton_school - a Bash script that displays Holberton School 10 times using for loop.
+* 2-while_holberton_school - a Bash script that displays Holberton School 10 times using while loop.
+* 3-until_holberton_school - a Bash script that displays Holberton School 10 times using until loop.
+* 4-if_9_say_hi - a Bash script that displays Holberton School 10 times, but for the 9th iteration, displays Holberton School and then Hi on a new line.
