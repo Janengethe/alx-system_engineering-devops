@@ -26,3 +26,18 @@
 * 7-highlander - a Bash script that displays:a).**To infinity and beyond** indefinitely, With a sleep 2 in between each iteration, b).**I am invincible!!!** when receiving a SIGTERM signal.
 * 67-stop_me_if_you_can - a copy of 6-stop_me_if_you_can script, that kills the 7-highlander process.
 * 8-beheaded_process - a Bash script that kills the process 7-highlander.
+* 100-process_and_pid_file - a Bash script that: Creates the file `/var/run/holbertonscript.pid` containing its PID, Displays **To infinity and beyond** indefinitely, Displays **I hate the kill command** when receiving a SIGTERM signal, Displays **Y U no love me?!** when receiving a SIGINT signal, Deletes the file `/var/run/holbertonscript.pid` and terminates itself when receiving a `SIGQUIT` or `SIGTERM` signal.
+* 101-manage_my_process, manage_my_process
+> Programs that are detached from the terminal and running in the
+> background are called `**daemons**` or `**processes**`, need to be managed.
+> The general minimum set of instructions is: `start`, `restart` and `stop`.
+> The most popular way of doing so on Unix system is to use the init scripts.
+* manage_my_process - Bash script that: Indefinitely writes **I am alive!** to the file `/tmp/my_process`. In between every **I am alive!** message, the program should pause for 2 seconds.
+* 101-manage_my_process - a Bash (init) script that manages manage_my_process. Requirements: When passing the argument start: Starts manage_my_process, Creates a file containing its PID in /var/run/my_process.pid, Displays manage_my_process started.
+When passing the argument stop: Stops manage_my_process, Deletes the file /var/run/my_process.pid, Displays manage_my_process stopped.
+When passing the argument restart: Stops manage_my_process, Deletes the file /var/run/my_process.pid, Starts manage_my_process
+Creates a file containing its PID in /var/run/my_process.pid, Displays manage_my_process restarted
+* 102-zombie.c - creates 5 zombie processes. Requirements: For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`.
+
+#### Author
+[Jane Ng'ethe](https://github.com/Janengethe)
