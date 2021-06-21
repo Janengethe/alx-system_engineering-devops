@@ -25,4 +25,4 @@
 * 8-for_ls - displays: The content of the current directory, In a list format, Where only the part of the name after the first dash is displayed.
 * 9-to_file_or_not_to_file - a Bash script that gives you information about the holbertonschool file.
 * 10-fizzbuzz - a Bash script that displays numbers from 1 to 100.
-
+* 100-read_and_cut - a Bash script that displays the content of the file /etc/passwd. The script only display: username, user id, Home directory path for the user.
