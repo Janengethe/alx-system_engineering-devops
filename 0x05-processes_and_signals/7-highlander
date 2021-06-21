@@ -3,7 +3,7 @@
 #I am invincible!!! when receiving a SIGTERM signal
 #With a sleep 2 in between each iteration
 
-msg=()
+msg()
 {
     echo "I am invincible!!!"
 }
