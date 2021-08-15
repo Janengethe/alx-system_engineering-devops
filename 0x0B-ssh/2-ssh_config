@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#configures VM to connect to server without password
+
+PasswordAuthentication no
+IdentityFile ~/.ssh/holberton
