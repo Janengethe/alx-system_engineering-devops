@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# the script starts apache2 corrects curl error
-# allows docker to run
-
-sudo /etc/init.d/apache2 start
