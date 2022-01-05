@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-#Fix curl error message by starting Apache server
+#contains the command to execute on the docker
+#so as to allow Apache to run on the container
+#and retun a string of "Hello Holberton" when curl 0:8080
 
 sudo service apache2 start
