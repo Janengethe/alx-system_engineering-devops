@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Install and configure HAProxy load balancer to 297-lb-01
+# sends traffic to web-01 and web-02
+
+
+CONFGF="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 338-web-01 35.229.54.225 check\n\tserver 338-web-02 35.231.225.251 check\n"
+
+sudo apt-get update
+sudo apt-get -y install nginx
+#version 1.5 and above
+sudo apt-get install -y haproxy=1.5\*
+#enable HAproxy can be managed via an init script
+sudo sed -i "s/ENABLED=0/ENABLED=1/" /etc/default/haproxy
