@@ -1,0 +1,1 @@
+A blog post explaining what happens when you type holbertonschool.com on our browser and press Enter.
