@@ -14,7 +14,7 @@ def gather_data():
     users = requests.get(users_url)
     EMPLOYEE_NAME = ""
     for i in users.json():
-        if i.get("id") == argv[1]:
+        if i.get("id") == int(argv[1]):
             EMPLOYEE_NAME = i.get("name")
             break
     NUMBER_OF_DONE_TASKS = 0
@@ -24,7 +24,7 @@ def gather_data():
     todos_url = "https://jsonplaceholder.typicode.com/todos"
     todos = requests.get(todos_url)
     for tasks in todos.json():
-        if tasks.get("userId") == argv[1]:
+        if tasks.get("userId") == int(argv[1]):
             TOTAL_NUMBER_OF_TASKS += 1
             if tasks.get("completed") is True:
                 NUMBER_OF_DONE_TASKS += 1
