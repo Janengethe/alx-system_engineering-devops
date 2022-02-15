@@ -12,7 +12,7 @@ def top_ten(subreddit):
     a given subreddit
     """
     url = ("https://api.reddit.com/r/{}?sort=hot&limit=10".format(subreddit))
-    headers = {'User-Agent': 'JaneNgethe'}
+    headers = {'User-Agent': 'CustomClient/1.0'}
     response = requests.get(url, headers=headers, allow_redirects=False)
 
     if response.status_code != 200:
