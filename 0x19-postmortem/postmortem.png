@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Bug-bash-stackoverflow-development-process</title>
+        <style type="text/css">
+            html, body, p
+            {
+                margin: 0;
+                border: 0;
+                padding: 0;
+                background: #000;
+            }
+        </style>
+        <script type="text/javascript" src="/.shared/js/yui/yahoo-dom-event.js"></script>
+        <script type="text/javascript">
+            YAHOO.util.Event.onDOMReady( function() {
+                var vw = YAHOO.util.Dom.getViewportWidth(),
+                    vh = YAHOO.util.Dom.getViewportHeight();
+                window.resizeBy( '600' - vw, '215' - vh );
+            } );
+        </script>
+    </head>
+    <body>
+        <p><img src="https://www.northstarnerd.org/.a/6a00d8341c5fd253ef0111685c1019970c-800wi" alt="Bug-bash-stackoverflow-development-process" /></p>
+    </body>
+</html>
+<!-- ph=1 -->
