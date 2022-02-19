@@ -1,1 +1,1 @@
-<img src="https://github.com/Janengethe/alx-system_engineering-devops/blob/main/0x19-postmortem/postmortem.png"
+<img src="https://github.com/Janengethe/alx-system_engineering-devops/blob/main/0x19-postmortem/postmortem.png"/>
