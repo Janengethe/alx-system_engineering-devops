@@ -6,7 +6,7 @@ exec { 'nginx requests limit':
 }
 #Restart NginX
 
-exec {'restart nginx':
+exec { 'restart nginx':
   command => 'nginx restart',
   path    => '/etc/init.d/'
 }
