@@ -1,12 +1,12 @@
 # fix nginx to accept and serve more requests
 
-exec { 'nginx requests limit':
-  command => 'sed -i "s/15/1000/" /etc/default/nginx',
+exec { 'fix--for-nginx':
+  command => 'sed -i "s/15/4096/" /etc/default/nginx',
   path    => '/usr/local/bin/:/bin/'
-}
+} ->
 
-#Restart NginX
-exec { 'restart nginx':
+# Restart Nginx
+exec { 'nginx-restart':
   command => 'nginx restart',
   path    => '/etc/init.d/'
 }
